@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+    }
+    .header {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: large;
+      padding: 20px;
+      color: #A191EE;
+      background-color: #48416B;
+      width: auto;
+      text-align: center;
+    }
+    .topnav {
+     overflow: hidden;
+     background-color: #2E216B; 
+    }
+    .topnav a {
+      float: left;
+      padding: 14px 16px;
+      text-align: center;
+      color: #A191EE;
+      text-decoration: none;
+      display: block;
+    }
+    .topnav a:hover {
+      background-color:#654AEB ;
+    }
+    .column {
+      float: left;
+      width: 33.33%;
+    }
+    .row {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .footer {
+      background-color: #48416B;
+      text-align: center;
+      padding: 20px;
+    }
+    @media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Header</h1>
+  </div>
+  <div class="topnav">
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h2>Header</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum repellat facere deleniti earum cumque doloribus delectus reiciendis, maxime velit eaque accusamus quae minus placeat commodi repudiandae unde itaque atque in!
+    </div>
+    <div class="column">
+      <h2>Header</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem recusandae quibusdam nesciunt ullam, aliquam architecto vitae natus illo impedit? Tenetur reiciendis illo fuga tempore! Impedit, hic. Iste ipsum saepe officia?
+    </div>
+    <div class="column">
+      <h2>Header</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo eius qui sequi esse omnis iusto temporibus, ratione voluptates, itaque quod. Voluptate necessitatibus explicabo asperiores facere aspernatur est impedit quos.
+    </div>
+  </div>
+  <div class="footer">
+    <p>Footer</p>
+  </div>
+</body>
+</html>
